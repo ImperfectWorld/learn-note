@@ -38,8 +38,22 @@ new Vue({
 
 class Vue{
   constructor(options) {
-    this.$el = document.querySelector(options.el);
+    
+    if (typeof options.beforeCreate === 'function') {
+      options.beforeCreate.bind(this)();
+    }
     this.$data = options.data;
+    if (typeof options.created === 'function') {
+      options.created.bind(this)();
+    }
+    if (typeof options.beforeMount === 'function') {
+      options.beforeMount.bind(this)();
+    }
+    this.$el = document.querySelecter(options.el);
+    
+    if (typeof options.mounted === 'function') {
+      options.mounted.bind(this)();
+    }
   }
   
 }
