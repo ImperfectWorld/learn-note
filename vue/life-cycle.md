@@ -24,3 +24,24 @@ destroyed() {}
 > this.$el 和 this.$data 挂载的时机
 <img width="476" alt="image" src="https://user-images.githubusercontent.com/11763399/155053982-714ac6c0-7281-4939-930a-e97c9fe3627c.png">
 
+
+
+### 实现原理
+```
+// 使用
+new Vue({
+  el: '#app',
+  data: {
+    str: '你好'
+  }
+})
+
+class Vue{
+  constructor(options) {
+    this.$el = document.querySelector(options.el);
+    this.$data = options.data;
+  }
+  
+}
+
+```
