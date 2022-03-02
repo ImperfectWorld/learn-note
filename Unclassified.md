@@ -13,3 +13,6 @@
 
 
 ### ajax axios fetch区别
+
+### .git
+- hooks, pre-commit
