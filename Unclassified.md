@@ -4,6 +4,8 @@
 - http range
 
 ### 性能优化
+![image](https://user-images.githubusercontent.com/11763399/156503139-2cde551f-7ffc-4cd5-978d-0b47abb5f440.png)
+
 - 指标
 - 如何计算
     - performance fcp
