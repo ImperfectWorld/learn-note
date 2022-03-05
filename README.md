@@ -21,7 +21,7 @@
 - 缓存
 - http2
 
-### 安全
+### [安全](https://github.com/ImperfectWorld/learn-note/tree/main/%E5%AE%89%E5%85%A8)
 - xss
 - csrf
 - 其他
