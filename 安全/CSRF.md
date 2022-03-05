@@ -30,3 +30,6 @@
     - 尽量使用 post ，限制 get 使用；上一个例子可见，get 太容易被拿来做 CSRF 攻击，但是 post 也并不是万无一失，攻击者只需要构造一个form就可以。
     - Referer check：请求来源限制，此种方法成本最低，但是并不能保证 100% 有效，因为服务器并不是什么时候都能取到 Referer，而且低版本的浏览器存在伪造 Referer 的风险。
     - token：token 验证的 CSRF 防御机制是公认最合适的方案。
+
+## CSRF 与 XSS 区别
+本质上讲，XSS 是代码注入问题，CSRF 是 HTTP 问题。XSS 是内容没有过滤导致浏览器将攻击者的输入当代码执行。CSRF 则是因为浏览器在发送 HTTP 请求时候自动带上 cookie，而一般网站的 session 都存在 cookie里面。XSS 利用的是用户对指定网站的信任，CSRF 利用的是网站对用户网页浏览器的信任。
