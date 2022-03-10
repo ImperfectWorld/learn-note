@@ -8,7 +8,7 @@
 ### js-core 基础
 - es6+
 - Promise
-- 防抖节流
+- [防抖节流](https://github.com/ImperfectWorld/learn-note/blob/main/%E5%9F%BA%E7%A1%80/%E9%98%B2%E6%8A%96%26%E8%8A%82%E6%B5%81)
 - 闭包
 - 开发模式
 - ts
