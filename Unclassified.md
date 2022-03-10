@@ -3,6 +3,9 @@
 ### 大文件下载暂停
 - http range
 
+content-type: multipart/form-data
+利用表单长传文件的时候，必须让 form 的 enctyped 等于这个值；这个格式一般是用来上传文件的，各大服务端语言对他也有着良好的支持
+
 ### 性能优化
 ![image](https://user-images.githubusercontent.com/11763399/156503139-2cde551f-7ffc-4cd5-978d-0b47abb5f440.png)
 
