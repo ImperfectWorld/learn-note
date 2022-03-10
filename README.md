@@ -3,6 +3,7 @@
 ### 一些学习的地方
 - [知乎-尤雨溪](https://www.zhihu.com/people/evanyou) ：Vue
 - [木易杨前端进阶](https://muyiy.cn/) : 前端面试
+- [nodejs官方教程](http://nodejs.cn/learn/how-much-javascript-do-you-need-to-know-to-use-nodejs)
 
 ### js-core 基础
 - es6+
