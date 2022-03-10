@@ -1,3 +1,7 @@
+## [nodejs入门教程](http://nodejs.cn/learn/how-much-javascript-do-you-need-to-know-to-use-nodejs)
+
+![image](https://user-images.githubusercontent.com/11763399/157578230-ebc89d90-e6f5-4fbb-8e5e-ef182250e6bf.png)
+
 # 怎么看 nodejs 可支持高并发
 
 # 介绍下 nodejs 的事件循环
