@@ -14,7 +14,7 @@
 ### Vue 前端框架
 - vue & vue3
 - [vuex](https://github.com/ImperfectWorld/learn-note/blob/main/vue/vuex%E5%8E%9F%E7%90%86%E6%BA%90%E7%A0%81%E5%AE%9E%E7%8E%B0.md)
-- vue router
+- [vue router](https://github.com/ImperfectWorld/learn-note/blob/main/vue/vue-router%E5%8E%9F%E7%90%86%E4%B8%8E%E5%AE%9E%E7%8E%B0.md)
 
 ### network网络
 - 浏览器渲染原理
