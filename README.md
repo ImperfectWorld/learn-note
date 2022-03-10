@@ -1,6 +1,8 @@
 # learn-note
 学习记录
-
+### 一些学习的地方
+- [知乎-尤雨溪](https://www.zhihu.com/people/evanyou) ：Vue
+- [木易杨前端进阶](https://muyiy.cn/) : 前端面试
 
 ### js-core 基础
 - es6+
