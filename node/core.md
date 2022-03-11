@@ -12,5 +12,8 @@
 
 # nodejs日志切割用什么实现
 
+# 在 Node 应用中如何利用多核心 CPU 的优势
+https://juejin.cn/post/6844903795252527118
+
 
 参考链接： https://juejin.cn/post/6844904071501971469#heading-10
