@@ -10,5 +10,6 @@
 - 执行timerFunc函数，延迟调用 flushCallbacks 函数
 - 遍历执行 callbacks 数组中的所有函数
 ```bash
-这里的 callbacks 没有直接在 nextTick 中执行回调函数的原因是保证在同一个 tick 内多次执行nextTick，不会开启多个异步任务，而是把这些异步任务都压成一个同步任务，在下一个 tick 执行完毕。
+这里的 callbacks 没有直接在 nextTick 中执行回调函数的原因是
+保证在同一个 tick 内多次执行nextTick，不会开启多个异步任务，而是把这些异步任务都压成一个同步任务，在下一个 tick 执行完毕。
 ```
