@@ -1,3 +1,4 @@
+[在线code平台](https://codesandbox.io/)
 # 组件列表中key的作用
 
 > 官网描述：
