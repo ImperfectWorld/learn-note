@@ -1,8 +1,73 @@
 [在线code平台](https://codesandbox.io/)
 # 待解决问题
 - 如何不刷新页面，重置页面所有组件，所有组件重新请求对应接口数据？ key
+  -  组件的key值改变会使vue页面重新刷新
+```bash
+  <template>
+    <div id="app" :key="key">
+      <router-view></router-view>
+    </div>
+  </template>
+<script>
+export default {
+  name: 'App',
+  provide () {
+    return {
+      reload: this.reload
+    }
+  },
+  data () {
+    return {
+      key: 1
+    }
+  },
+  methods: {
+    reload () {
+      this.key++
+    }
+  }
+}
+</script>
+```
+  - v-if状态切换
+
+  ```js
+  <template>
+  <div id="app">
+    <router-view v-if="isShow"></router-view>
+  </div>
+</template>
+ 
+<script>
+export default {
+  name: 'App',
+  provide () {
+    return {
+      reload: this.reload
+    }
+  },
+  data () {
+    return {
+      isShow: true
+    }
+  },
+  methods: {
+    reload () {
+      this.isShow= false
+      this.$nextTick(function () {
+        this.isShow= true
+      })
+    }
+  }
+}
+</script>
+```
+
 - diff算法的时间复杂度，及降低时间复杂度的方法
+  - 两棵树完全diff是O(n^3)， vue的diff只是同层diff O(n) [跨层级修改场景较少]
+  - tagname/key
 - 双向数据绑定
+  - 一个组件上的 v-model 默认会利用名为 value 的 prop 和名为 input 的事件
 
 
 # 组件列表中key的作用
