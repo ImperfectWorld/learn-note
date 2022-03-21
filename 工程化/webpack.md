@@ -1,3 +1,5 @@
+https://doc.codingdict.com/webpack-cn-doc/loaders/url-loader/
+
 ### 打包工具解决什么问题
 
 - ES-Module 的浏览器兼容性问题
