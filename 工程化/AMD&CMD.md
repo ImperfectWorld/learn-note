@@ -10,8 +10,10 @@
 - 如何使用？CommonJs 的话，因为 NodeJS 就是它的实现，所以使用 node 就行，也不用引入其他包。AMD则是通过<script>标签引入require.js，CMD则是引入sea.js
 UMD是AMD和CommonJS的糅合-
 
->  esm 为静态导入，正因如此，可在编译期进行 Tree Shaking，减少 js 体积。
-  
+> - esm 为静态导入，正因如此，可在编译期进行 Tree Shaking，减少 js 体积。
+> - cjs 模块输出的是一个值的拷贝，esm 输出的是值的引用
+> - cjs 模块是运行时加载，esm 是编译时加载
+
 -----------------------------------------------------------------------------------------------------
 AMD 规范在这里：https://github.com/amdjs/amdjs-api/wiki/AMD
 
