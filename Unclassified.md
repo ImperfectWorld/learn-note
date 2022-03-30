@@ -2,6 +2,9 @@
 
 ## 原型与原型链
 
+### 大文件上传
+https://zhuanlan.zhihu.com/p/68271019
+
 ### 大文件下载暂停
 - http range
 
