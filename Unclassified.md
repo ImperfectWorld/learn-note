@@ -47,3 +47,9 @@ content-type: multipart/form-data
 https://juejin.cn/post/6917848537686507533
 https://juejin.cn/post/6973111766767108103
 https://www.bilibili.com/video/BV1H34y117fe?from=search&seid=5947971260081305233&spm_id_from=333.337.0.0
+
+### content-type 类型
+
+### 变量/作用域/闭包
+
+### 岛屿问题
