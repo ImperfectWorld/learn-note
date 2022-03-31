@@ -49,7 +49,14 @@ https://juejin.cn/post/6973111766767108103
 https://www.bilibili.com/video/BV1H34y117fe?from=search&seid=5947971260081305233&spm_id_from=333.337.0.0
 
 ### content-type 类型
+Content-Type: application/json ： 请求体中的数据会以json字符串的形式发送到后端
+Content-Type: application/x-www-form-urlencoded：请求体中的数据会以普通表单形式（键值对）发送到后端
+Content-Type: multipart/form-data： 它会将请求体的数据处理为一条消息，以标签为单元，用分隔符分开。既可以上传键值对，也可以上传文件。
 
 ### 变量/作用域/闭包
+定义：简单来说作用域就是变量与函数的可访问范围，由当前环境与上层环境的一系列变量对象组成
+1.全局作用域：代码在程序的任何地方都能被访问，window 对象的内置属性都拥有全局作用域。
+2.函数作用域：在固定的代码片段才能被访问
+作用：作用域最大的用处就是隔离变量，不同作用域下同名变量不会有冲突。
 
 ### 岛屿问题
