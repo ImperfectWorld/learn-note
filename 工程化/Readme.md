@@ -1,5 +1,7 @@
 # webpack与glup
 
+[webpack](https://juejin.cn/post/6844904031240863758#heading-6)
+
 [webpack vs Glup](https://www.cnblogs.com/iovec/p/7921177.html)
 
 ## 用法
