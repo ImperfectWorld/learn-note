@@ -90,3 +90,5 @@ VueRouter.install = (_Vue) => {
 
 export default VueRouter
 ```
+
+> [相关文档](https://juejin.cn/post/7126573677176422414)
