@@ -75,4 +75,5 @@ Webpack 启动后，
 ![image](https://user-images.githubusercontent.com/11763399/157178342-a5cb76ae-9067-4d6d-9bee-57571ce2fc7e.png)
 
 
-### elementui 按需引入实现方法
+### 参考文档
+[loader&plugin编写思路](https://blog.csdn.net/weCat_s/article/details/121611196)
